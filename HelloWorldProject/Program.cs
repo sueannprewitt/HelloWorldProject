@@ -18,9 +18,9 @@ namespace HelloWorldProject {
 		}
 
 		string ToFullName (string P1, string P2) {
-			return P1 + " " + P2; //or $"{P1} {P2}";
+			return P1 + " " + P2; //or $"{P1} {P2}" - this is an interpolation
 		}
-
+		//these are examples of overloaded methods
 		int AddNumbers(int parameter1, int parameter2) {
 			return parameter1 + parameter2;
 		}
